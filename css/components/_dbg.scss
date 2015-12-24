@@ -8,7 +8,8 @@ header{
     z-index: 1;
   }
   .topmenu{
-    //background: $white url("../img/topmenu.png") no-repeat 50% 50%;
+    background-color: $white;
+    background: url("../img/topmenu.png") no-repeat 50% 50%;
     background-size: cover ;
     font-size: 0;
 
@@ -575,10 +576,11 @@ header{
     div{
       display: table-cell;
       border-right: 3px solid $white;
-      vertical-align: top;
-      //margin: 0 3px 0 0;
+      border-bottom: 3px solid $white;
+      vertical-align: top;      
       height: 100%;
       width: 16.3%;
+      color: $white;
       background: $green;
         &:last-of-type{
           margin-right: 0;

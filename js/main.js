@@ -44,6 +44,7 @@ $(document).ready(function() {
 });
 
 /*-------------------- Topmenu Fixed ------------------*/
+/*
 $(document).ready(function() {
 	var top = 0;
 	var fixedMenu = $("header");
@@ -56,6 +57,7 @@ $(document).ready(function() {
 		}
 	});
 });
+*/
 
 
 
