@@ -1,0 +1,47 @@
+
+$black: #000;
+$white: #fff;
+$orange: #ed9223;
+$green: #5c7a1c;
+$gray: #a9a9a3;
+$dgray: rgba(72, 72, 72, 0.84);
+$gray85: #858585;
+$dred: #831727;
+
+$font-regular: "PT_Sans-Web-Regular", sans-serif;
+$font-bold: "PT_Sans-Web-Bold", sans-serif;
+
+@mixin fontbase($ff){
+  font-family: $ff;
+}
+
+@mixin button{
+  font-size: 16px;
+  line-height: 20px;
+  display: inline-block;
+  font-family: $font-regular;
+  text-transform: uppercase;
+  color: $white;
+  background: $orange;
+  border: 2px solid #ffa71c;
+  padding: 11px 30px;
+  outline: none;
+  &:hover{
+    opacity: 0.6;
+    transition: all .5s ease 0s;
+  }
+}
+
+.clearfix{
+  &:after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+
+
+
+
+

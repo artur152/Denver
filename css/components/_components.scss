@@ -1,0 +1,99 @@
+
+/*---------------- Show Desktop Search -------------*/
+header .menus .topmenu .search .topmenu-input.show-input{
+   display: inline-block;
+   width: 50%;
+   transition: all .5s ease 0s;
+ }
+header .menus .topmenu .search button.edit-button{
+  width: auto;
+}
+/*-----------------------------------------------------*/
+
+.button{
+  @include button();
+}
+.input{
+  font-size: 16px;
+  line-height: 20px;
+  min-width: 100px;
+  border: 1px solid #d0d0d0;
+  color: $dgray;
+  background: $white;
+  vertical-align: top;
+  outline: none;
+}
+
+.title{
+  font-family: $font-bold;
+  color: $gray;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.timetable{
+  font-family: $font-regular;
+  color: #fff;
+}
+a.buy{
+  font-family: $font-bold;
+}
+.readmore{
+  font-family: $font-bold;
+  text-transform: capitalize;
+}
+
+.schedule .title{
+  font-size: 40px;
+  line-height: 46px;
+  color: #fff;
+  text-transform: capitalize;
+  &:before {
+    content: "";
+    float: left;
+    vertical-align: bottom;
+    background: no-repeat 50% 50%;
+    background-size: 25px auto;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-right: 7px;
+  }
+}
+.events-info-schedule{
+  font-size: 14px;
+  line-height: 16px;
+  margin: 15px 0 20px 0;
+  color: $gray85;
+  span{
+    padding: 0 10px;
+    border-left: 1px solid $gray85;
+    color: $gray85;
+    margin-bottom: 5px;
+    display: inline-block;
+    &:nth-child(1){
+      border: none;
+      padding-left: 0;
+    }
+  }
+  a{
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0 10px;
+    border-left: 1px solid $gray85;
+    color: $gray85;
+    display: inline-block;
+    text-decoration: underline;
+  }
+}
+.events-info-about{
+    font-size: 16px;
+    line-height: 22px;
+    color: $black;
+}
+
+
+
+
+
+
+

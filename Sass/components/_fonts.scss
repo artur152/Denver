@@ -1,0 +1,19 @@
+@font-face{
+  font-family: "PT_Sans-Web-Regular";
+  src: url(../fonts/PT_Sans-Web-Regular.ttf) format("truetype"),
+  url("../fonts/PTSansRegular.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PT_Sans-Web-Bold";
+  src: url(../fonts/PT_Sans-Web-Bold.ttf) format("truetype"),
+  url("../fonts/PTSansBold.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+//  @include fontbase($font-regular);
+//  font-family: $font-regular;
+//  font-family: $font-bold;
