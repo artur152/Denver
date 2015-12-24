@@ -9,7 +9,7 @@ header {
   header .menus {
     z-index: 1; }
   header .topmenu {
-    background-color: #fff;
+    background-color: #1ce3a6;
     background-image: url("../img/topmenu.png") no-repeat 50% 50%;
     background-size: cover;
     font-size: 10px; }
